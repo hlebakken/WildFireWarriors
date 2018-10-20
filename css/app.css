@@ -33,6 +33,16 @@ section {
     text-align: center;
 }
 
+.flex-nav{
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .button {
     display: inline-block;
     padding: 25px 55px;
@@ -53,4 +63,8 @@ section {
 
 .red {
     background: rgb(255, 77, 53);  
+}
+
+.orange {
+    background: rgb(255, 186, 49);
 }
