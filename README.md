@@ -6,5 +6,6 @@ Each report will mark a place on a map that indicates where a fire most likely i
 If there are enough reports in close proximity to each other, those markers will connect to form a polygon to show the approx area of the wildfire.
 
 
+
 #### This is a project made during the 2018 NASA Space Apps Challenge
  

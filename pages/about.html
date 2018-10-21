@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wildfire Warriors</title>
+    <link rel="stylesheet" href="../css/app.css">
+    <script src="../js/jquery.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyARMHJNKOXp-ZP22Dtk-JhN_fBTJ7QfAwY",
+            authDomain: "wildfirewarriors-9c9f3.firebaseapp.com",
+            databaseURL: "https://wildfirewarriors-9c9f3.firebaseio.com",
+            projectId: "wildfirewarriors-9c9f3",
+            storageBucket: "wildfirewarriors-9c9f3.appspot.com",
+            messagingSenderId: "398091830009"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+    <header>
+        <h1> Wildfire Warriors <span class="thin">Fire Tracker</span> </h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+
+    <p class="about_content">
+        Wildfires have been growing in severity with the changes in climate. Millions of people are affected by them every year.
+        One of the main problems with fighting wildfires is early detection. Right now, we often don't know about a new wildfire
+        until 3-4 hours after it has started, which is plenty of time for a wildfire to get out of hand. We need more eyes on the ground.
+    </p>
+    <p class="about_content">
+        The people who care most about the spread of wildfires are the people who live in the danger zone. Wouldn't it be great if
+        they could contribute to their own protection? If they could be warriors in the fight to save their homes and livelihoods?
+    </p>
+    <p class="about_content">
+        We propose an app in two parts. Wildfire Warriors would be a crowd sourced fire spotting app that alerts authorities and fellow
+        users of a new fire before it gets out of control, as well as informing people about the dangers posed by a wildfire in their area.
+        This would be a progressive web app that users, AKA warriors, could install on their phones but also access online.
+    </p>
+    <p class="about_content">
+        The first part of the app, fire spotting, would be crucial. Say a hiker in the woods notices a fire. Using the Wildfire Warriors
+        app, they could Report the Fire, which is to say, they could take a picture or five second video of the fire, mark where they are
+        on the app's map and the time they saw it, as well as any weather or terrain in the area that might be important to the fire they've
+        witnessed.  Even if they have no signal, data, or wifi when they see the fire, a phone can still grab a GPS location.
+    </p>
+    <p class="about_content">
+        After that, the information from the report would be sent to the local fire station or 9-1-1 operatives, who will review the five-second
+        video and determine its validity. Additionally, the report would show up on the Wildfire Warriors map with a small radius around it.
+        As more reports of the fire come in and more points are plotted on the map, a polygon forms that is color coded to the danger level of the fire.
+    </p>
+    <p class="about_content">
+        Our app's map would be connected to local weather reports, specifically wind speed and direction. Wind is a huge uncontrollable factor
+        in the spread of wildfires, and it also dictates the distribution of smoke. Since smoke is detrimental to visibility and air quality,
+        and covers a much bigger area, it is just as big of a concern as the fire itself. Using this data, the app would have separate polygons
+        for the fire’s area, smoke distribution and thickness, and the prediction of where the fire and smoke will progress to.
+    </p>
+    <p class="about_content">
+        The second part of the Wildfire Warriors app would be informational. This includes notifying warriors that they are in an affected area;
+        evacuation areas, shelters, and routes with road closures updated; a checklist for preparing for a wildfire; the difference between a fire
+        watch and a fire warning; and the level of fire danger at a particular time. The app would be able to connect to various social media
+        accounts, so that warriors can mark themselves safe for their family and friends to see. In addition to receiving notifications about
+        his or her own area, a warrior could choose to get notified about multiple areas so they could reach family members who might be affected
+        by a wildfire.
+    </p>
+    <p class="about_content">
+        The Wildfire Warriors app would empower people to take charge of their own safety when it comes to wildfires. It would inform them of how to prepare for a wildfire, and when to be concerned about one in their area.  And most importantly, it would inform authorities about impending wildfires faster than our current warning systems.
+    </p>
+
+
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
