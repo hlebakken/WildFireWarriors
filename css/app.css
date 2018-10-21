@@ -30,6 +30,11 @@ h1 {
     background: #a5a5a5;
     width:100%;
 }
+
+#mapimg {
+    width:100%;
+}
+
 section {
     margin-top: 30px;
     text-align: center;
