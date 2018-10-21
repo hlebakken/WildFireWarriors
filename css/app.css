@@ -29,18 +29,19 @@ h1 {
 
 .thin {
     font-weight: 200;
+    color: white;
 }
 
 #map {
-    height: 90%;
-    background: #a5a5a5;
-    width:90%;
+    height: 600px;
+    width:700px;
     text-align: center;
 }
 
 #mapimg {
     height: 500px;
-    width: 700px;;
+    width: 700px;
+    text-align: center;
 }
 
 section {
