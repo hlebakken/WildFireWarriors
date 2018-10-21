@@ -20,6 +20,7 @@ h1 {
     text-align: center;
 }
 
+
 .thin {
     font-weight: 200;
 }
@@ -34,7 +35,7 @@ section {
     text-align: center;
 }
 
-.flex-nav{
+.flex{
     display:flex;
     flex-wrap:wrap;
     text-align:center;
