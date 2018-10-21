@@ -7,6 +7,20 @@
     <title> WSU Fire Tracker </title>
     <link rel="stylesheet" href="css/app.css">
     <script src="js/jquery.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyARMHJNKOXp-ZP22Dtk-JhN_fBTJ7QfAwY",
+            authDomain: "wildfirewarriors-9c9f3.firebaseapp.com",
+            databaseURL: "https://wildfirewarriors-9c9f3.firebaseio.com",
+            projectId: "wildfirewarriors-9c9f3",
+            storageBucket: "wildfirewarriors-9c9f3.appspot.com",
+            messagingSenderId: "398091830009"
+        };
+        firebase.initializeApp(config);
+    </script>
 </head>
 <body>
 
