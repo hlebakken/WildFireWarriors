@@ -40,9 +40,10 @@ h1 {
 }
 
 #mapimg {
-    height: 700px;
+    height: 600px;
     width: 1000px;
-    margin-left:20px;
+    margin-left:45%;
+    margin: 30px;
 }
 
 section {
@@ -69,6 +70,8 @@ section {
 .about_content {
     color: white;
     margin-top: 30px;
+    width:500px;
+    margin:60px;
 }
 
 
